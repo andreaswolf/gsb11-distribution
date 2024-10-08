@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: 2024 Bundesrepublik Deutschland, vertreten durch das BMI/ITZBund
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+version: '3.6'
+
+services:
+  web:
+    environment:
+      - TYPO3__EXTENSIONS__backend__backendFavicon=EXT:gsb_core/Resources/Public/Favicons/favicon-32x32.png
+      - TYPO3__EXTENSIONS__backend__backendLogo=EXT:gsb_core/Resources/Public/Favicons/favicon.ico
+      - TYPO3__EXTENSIONS__backend__loginBackgroundImage=EXT:gsb_core/Resources/Public/Images/bg.jpg
+      - TYPO3__EXTENSIONS__backend__loginFootnote=© GSB - ITZBund
+      - TYPO3__EXTENSIONS__backend__loginHighlightColor=#004b76
+      - TYPO3__EXTENSIONS__backend__loginLogo=EXT:gsb_core/Resources/Public/Favicons/android-chrome-192x192.png
+      - TYPO3__EXTENSIONS__backend__loginLogoAlt=GSB - ITZBund
+      - TYPO3__DB__Connections__Default__dbname=db
+      - TYPO3__DB__Connections__Default__user=db
+      - TYPO3__DB__Connections__Default__password=db
+      - TYPO3__DB__Connections__Default__host=db
+      - TYPO3__SYS__features__brandingBackendLogin=%const(bool:true)%

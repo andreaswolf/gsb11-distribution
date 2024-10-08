@@ -1,0 +1,6 @@
+dependencies:
+- name: gsb11
+  repository: https://git.gsb-itzbund.de/api/v4/projects/116/packages/helm/stable
+  version: 10.9.2
+digest: sha256:84611b23c263ef7907c2083c97e686b41609046c2f2080c601ea48957505eedf
+generated: "2024-09-27T10:55:46.8293286Z"
