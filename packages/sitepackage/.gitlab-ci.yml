@@ -1,0 +1,4 @@
+---
+stages: [lint, qa, clone, prepare, build-app, build, test, release]
+include:
+  - component: ${CI_SERVER_HOST}/gsb11/gitlab-ci-cd-components/gsb-site-package/build@2.12.25

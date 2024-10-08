@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: 2024 Bundesrepublik Deutschland, vertreten durch das BMI/ITZBund
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+@import 'EXT:gsb_core/Configuration/TypoScript/setup.typoscript'
+
+page {
+  includeCSS {
+    mandant = EXT:gsb_sitepackage/Resources/Public/StyleSheets/mandant.css
+
+  }
+}

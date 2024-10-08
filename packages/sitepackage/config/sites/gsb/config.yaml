@@ -1,0 +1,18 @@
+# SPDX-FileCopyrightText: 2024 Bundesrepublik Deutschland, vertreten durch das BMI/ITZBund
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+rootPageId: 1
+base: /
+languages:
+  -
+    title: English
+    enabled: true
+    locale: en_us
+    hreflang: ''
+    base: /
+    websiteTitle: ''
+    navigationTitle: ''
+    flag: global
+    languageId: 0
+sitePackage: gsb_sitepackage

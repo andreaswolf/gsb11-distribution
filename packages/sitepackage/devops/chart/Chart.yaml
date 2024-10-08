@@ -1,0 +1,12 @@
+---
+apiVersion: v2
+description: <will be replaced in pipeline>
+home: https://git.gsb-itzbund.de/gsb11/
+name: <will be replaced in pipeline>
+# will be replaced in pipeline
+version: 0.0.0
+dependencies:
+  - name: gsb11
+    alias: base
+    repository: https://git.gsb-itzbund.de/api/v4/projects/116/packages/helm/stable
+    version: 10.9.2

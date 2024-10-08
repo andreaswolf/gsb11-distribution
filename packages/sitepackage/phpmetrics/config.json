@@ -1,0 +1,14 @@
+{
+	"searches": {
+		"Class with too complex code": {
+			"type": "class",
+			"ccn": ">=10",
+			"failIfFound": true
+		},
+		"Class with too many responsabilitites": {
+			"type": "class",
+			"lcom": ">=3",
+			"failIfFound": true
+		}
+	}
+}
